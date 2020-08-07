@@ -35,6 +35,13 @@
             <artifactId>aws-java-sdk</artifactId>
             <version>1.9.6</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-acm -->
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-java-sdk-acm</artifactId>
+            <version>1.11.836</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -56,7 +63,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>com.amazonaws.samples.S3Sample</mainClass>
+                    <mainClass>com.amazonaws.samples.AWSCertificateManagerExample</mainClass>
                 </configuration>
             </plugin>
             <plugin>
@@ -73,7 +80,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.amazonaws.samples.S3Sample</mainClass>
+                            <mainClass>com.amazonaws.samples.AWSCertificateManagerExample</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
