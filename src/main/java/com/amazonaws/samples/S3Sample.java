@@ -1,3 +1,4 @@
+//https://aws.amazon.com/developers/getting-started/java/
 /*
  * Copyright 2010-2013 Amazon.com, Inc. or its affiliates. All Rights Reserved.
  *

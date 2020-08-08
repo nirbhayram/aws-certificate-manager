@@ -59,6 +59,7 @@ public class ListCertificatesCustom {
         try {
             result = client.listCertificates(req);
         } catch (Exception ex) {
+            System.out.println("Error");
             throw ex;
         }
 

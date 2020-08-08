@@ -28,7 +28,7 @@ import com.amazonaws.services.certificatemanager.model.RequestCertificateResult;
  * Certificate ARN - The Amazon Resource Name (ARN) of the certificate you requested.
  */
 
-public class CreateCertificateCustom {
+public class RequestCertificateCustom {
 
     public static void main(String[] args) {
 
