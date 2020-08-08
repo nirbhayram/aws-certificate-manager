@@ -63,7 +63,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>com.amazonaws.samples.RequestCertificateCustom</mainClass>
+                    <mainClass>com.amazonaws.samples.CustomCertificateManager</mainClass>
                 </configuration>
             </plugin>
             <plugin>
@@ -80,7 +80,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.amazonaws.samples.RequestCertificateCustom</mainClass>
+                            <mainClass>com.amazonaws.samples.CustomCertificateManager</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
