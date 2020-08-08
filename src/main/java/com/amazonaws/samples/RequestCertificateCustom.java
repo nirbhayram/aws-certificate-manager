@@ -1,4 +1,4 @@
-//https://docs.aws.amazon.com/acm/latest/APIReference/API_RequestCertificate.html
+//https://docs.aws.amazon.com/acm/latest/userguide/sdk-request.html
 
 package com.amazonaws.samples;
 
