@@ -49,14 +49,14 @@ public class AWSCertificateManagerExample {
                 .build();
 
         // Specify a SAN.
-        ArrayList<String> san = new ArrayList<String>();
-        san.add("www.example.com");
+//        ArrayList<String> san = new ArrayList<String>();
+//        san.add("www.example.com");
 
         // Create a request object and set the input parameters.
         RequestCertificateRequest req = new RequestCertificateRequest();
-        req.setDomainName("example.com");
+        req.setDomainName("nirbhay.io");
         req.setIdempotencyToken("1Aq25pTy");
-        req.setSubjectAlternativeNames(san);
+//        req.setSubjectAlternativeNames(san);
 
         // Create a result object and display the certificate ARN.
         RequestCertificateResult result = null;
