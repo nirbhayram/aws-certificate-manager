@@ -1,3 +1,4 @@
+//https://docs.aws.amazon.com/acm/latest/APIReference/API_RequestCertificate.html
 
 package com.amazonaws.samples;
 
@@ -13,8 +14,6 @@ import com.amazonaws.services.certificatemanager.model.LimitExceededException;
 import com.amazonaws.services.certificatemanager.model.RequestCertificateRequest;
 import com.amazonaws.services.certificatemanager.model.RequestCertificateResult;
 
-import java.util.ArrayList;
-
 /**
  * This sample demonstrates how to use the RequestCertificate function in the AWS Certificate
  * Manager service.
@@ -29,7 +28,7 @@ import java.util.ArrayList;
  * Certificate ARN - The Amazon Resource Name (ARN) of the certificate you requested.
  */
 
-public class AWSCertificateManagerExample {
+public class CreateCertificateCustom {
 
     public static void main(String[] args) {
 
