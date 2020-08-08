@@ -40,7 +40,7 @@ import java.util.UUID;
  */
 public class S3Sample {
 
-    public static void main1(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {
         /*
          * Create your credentials file at ~/.aws/credentials (C:\Users\USER_NAME\.aws\credentials for Windows users)
          * and save the following lines after replacing the underlined values with your own.
